@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <title>SWAP w konstancinie</title>
+ 
+    <meta
+      name="description"
+      content="Opis zawartoœci strony dla wyszukiwarek"/>
+    <meta name="keywords" content="s³owa, kluczowe, opisuj¹ce, zawartoœæ" />
+    <meta name="author" content="Ania" />
+    <meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- ccs styles-->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap"
+    rel="stylesheet"/> 
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&family=Work+Sans:wght@300&display=swap"
+    rel="stylesheet"/> 
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&family=Work+Sans:ital,wght@0,300;1,900&display=swap" 
+    rel="stylesheet"/> 
+    <link rel="stylesheet" href="normalize.css" />
+    <!-- skrypt.js jest na koñcu body, aby wszytskie znaczniki by³y za³adowane--> 
+  </head>
+  <body>
+    
+   <div class="hero" id="hero">
+    <div class="hero-content">
+      <nav class="nav">
+          <a class="logo" href="#hero">
+        <figure>
+            <img
+              width="50"
+              src="logo.jpg"
+              alt="logo Swapu">
+        </figure>
+        
+            </a>
+
+                <ul class="all-menu">
+            <li class="menu">
+              <a class="menu-link" href="#swap">swap</a>
+            </li>
+            <li class="menu">
+              <a class="menu-link" href="#termin">kiedy dzia³amy?</a>
+            </li>
+	    <li class="menu">
+              <a class="menu-link" href="#ubrania">co mo¿na oddaæ?</a>
+            </li>
+	    <li class="menu">
+              <a class="menu-link" href="#o_nas">kim jesteœmy?</a>
+            </li>
+            <li class="menu">
+              <a class="menu-link" href="#photos">zdjêcia</a>
+            </li>
+            <li class="menu">
+              <a class="menu-link" href="#kontakt">kontakt</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- start -->
+        <header class="header">
+          <h1 class="main-heading">czeœæ</h1>
+          <p class="header-text">
+              To jest strona <b>SWAP</b>-u, 
+              Nie do wyrzucenia, czyli jak nie nosisz to oddaj </p>
+	  <p> a poni¿ej trochê o nim... </p>
+          <a class="header-link" href="#termin">kiedy?</a>
+        </header>      
+    </div>
+
+   </div> 
+    
+     <!-- quote 1-->
+    <section class="section-quote">
+        <figure>
+             <p class="quote">
+                Starajcie siê zosatwiæ ten œwiat choæ trochê lepszym,
+		ni¿ go zastaliœcie.
+            </p>
+            <figcaption class="skam">~Robert Badern-Powel</figcaption>
+        </figure>
+
+    </section> 
+    <!-- about swap -->
+    <section class="section-swap" id="swap">
+        <div class="photo-swap">
+            <img 
+            class="image-swap"
+            width="300"
+            src="logo.jpg" 
+            alt="logo Swapu"/>
+        </div>
+     
+          <div class="content-swap">
+            <h2 class="header-swap">SWAP</h2>
+            <p class="text">
+              	to?wymiana u¿ywanych ubrañ, która zorganizowana jest 
+		w okreœlonej przestrzeni (u nas to hufiec, Sobieskiego 7). 
+            </p>
+            <p class="text">
+              Na?miejsce przynosimy dowoln¹ liczbê swoich ciuchów, 
+		którym chcemy nadaæ nowe ¿ycie, a p³ac¹c za wejœcie 
+		mo¿emy zabraæ równie dowoln¹ liczbê ubrañ przyniesionych 
+		przez?inne osoby. 
+            </p>
+            <p class="text">
+              To nie wymiana 1=1, mo¿esz przynieœæ znacznie wiêcej ni¿ zabraæ, 
+		no i?odwrotnie.? 
+            </p>
+          </div>
+    </section>
+
+    <!-- teminy -->
+    <section class="section-termin" id="termin">
+            </div>
+            <h2 class="termin-header">Kiedy dzia³amy? </h2>
+            <p class="termin-text">
+              W pierwszy weekend grudnia – 2-4 (pi¹tek- niedziela)
+            </p>
+          </div>
+	    <div class="photo-termin">
+            <img 
+            class="image-termin"
+            width="300"
+            src="termin.jpg" 
+            alt="terminy: ....................."/>
+        </div>
+    </section>
+
+    <!-- ubrania -->
+    <section class="section-ubrania" id="ubrania">
+            </div>
+            <h2 class="termin-header">Co mo¿na oddaæ? </h2>
+            <p class="termin-text">
+              Ubrania przyjmujemy ju¿ od pi¹tku, 
+		jednak weekend równie¿ przyjmujemy ubarnia 
+            </p>
+          </div>
+	    <div class="photo-termin">
+            <img 
+            class="image-ubrania"
+            width="300"
+            src="ubrania.jpg" 
+            alt="mo¿na oddaæ: ....................."/>
+        </div>
+    </section>
+
+     <!-- quote 2-->
+    <section class="section-quote">
+        <figure>
+             <p class="quote">
+                Zawsze marz i mierz wy¿ej, ni¿ wiesz, ¿e jesteœ w stanie osi¹gn¹æ. 
+		Nie staraj siêbyæ po prostu lepszy od swoich rówieœników czy poprzedników.
+		Staraj siê byæ lepszy od samego siebie.
+            </p>
+            <figcaption class="skam">~Willian Faulkner</figcaption>
+        </figure>
+ </section> 
+
+
+    <!-- o nas -->
+    <section class="section-nas" id="o_nas">
+    
+          <div class="content-nas">
+            <h2 class="header-nas">Kim jesteœmy?</h2>
+            <p class="text">
+              	Wêdrowniczkami i wêdrownikiem z Puszczy, 
+		jednak mamy te¿ swoje przydzia³y w dru¿ynach i gromadach zuchowych.  
+            </p>
+            <p class="text">
+              Na?miejsce przynosimy dowoln¹ liczbê swoich ciuchów, 
+		którym chcemy nadaæ nowe ¿ycie, a p³ac¹c za wejœcie 
+		mo¿emy zabraæ równie dowoln¹ liczbê ubrañ przyniesionych 
+		przez?inne osoby. 
+            </p>
+        <div class="photo-jednostka">
+            <img 
+            class="image-jednostka"
+            width="200"
+            src="logo.124.jpg" 
+            alt="logo 124"/>
+        </div>
+        <div class="photo-jednostka">
+            <img 
+            class="image-jednostka"
+            width="200"
+            src="logo.127.jpg" 
+            alt="logo 127"/>
+        </div>
+        <div class="photo-jednostka">
+            <img 
+            class="image-jednostka"
+            width="200"
+            src="logo.28.jpg" 
+            alt="logo 28"/>
+        </div>
+
+            </p>
+          </div>
+    </section>
+
+
+
+     <!-- quote 3-->
+    <section class="section-quote">
+        <figure>
+             <p class="quote">
+                Aby samemu staæ siê lepszym, nie musisz czekaæ na lepszy œwiat.
+            </p>
+            <figcaption class="skam">~Phil Bosman</figcaption>
+        </figure>
+</section>
+
+
+<!-- photos -->
+    <section class="section-photos" id="photos">
+    <div>
+        <h2 class="photos-heading">zdjêcia</h2>
+        <p class="photos-text">
+          Zdjêcia to nieod³¹czny element mojego ¿ycia 
+          - a to parê z nich...
+        </p>
+      </div>
+      <div class="fotos">
+        <figure class="figure">
+            <img class="figure-image"
+              width="300"
+              src="img (5).jpg"
+              alt="">
+            <figcaption class="figure-description">opis</figcaption>
+        </figure>
+            
+        <figure class="figure">
+            <img class="figure-image"
+              width="300"
+              src="img (4).jpg"
+              alt="">
+            <figcaption class="figure-description">opis</figcaption>
+        </figure>
+
+        <figure class="figure">
+            <img class="figure-image"
+              width="300"
+              src="img (6).jpg"
+              alt="">
+            <figcaption class="figure-description">opis</figcaption>
+        </figure>
+        
+        <figure class="figure">
+            <img class="figure-image"
+              width="300"
+              src="img (3).jpg"
+              alt="">
+            <figcaption class="figure-description">opis</figcaption>
+        </figure>
+            
+        <figure class="figure">
+            <img class="figure-image"
+              width="300"
+              alt="">
+            <figcaption class="figure-description">opis</figcaption>
+        </figure>
+
+        <figure class="figure">
+            <img class="figure-image"
+              width="300"
+              alt="">
+            <figcaption class="figure-description">opis</figcaption>
+        </figure>
+      </div>
+    </section>
+
+
+
+<!-- footer -->
+    <footer class="footer" id="footer">
+      <div class="footer-content">
+        <div >
+          <p>Jako  ze jestem pocz¹tkuj¹c¹ w HTML i CSS, to proszê nie byæ z³ym na t¹ stronê, ona jest informacyjna  </p>
+          <p> jednak inofmacje na bie¿aco bêd¹ na wydarzeni na Facebooku.</p>        
+        </div>  
+        <div class="social">
+          <ul class="footer-icons">
+
+              <li>
+                <a href="https://www.facebook.com/................../">
+                  <?xml version="1.0" 
+                  encoding="UTF-8"?>
+              <svg 
+                  width="40"  
+
+
+
+
+
+
+
+
+
+
+              </svg>
+                  </a>
+              </li>
+            </ul>        
+        </div>        
+      </div>
+    </footer>
+
+  </body>
+</html>
