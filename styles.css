@@ -45,9 +45,6 @@ body {
 .logo {
     margin-left: 20px;
 }
-.header {
-    margin-left: 100px;
-}
 
 .main-heading {
     font-size: 100px;
@@ -76,7 +73,7 @@ body {
     justify-content: center;
     gap: 100px;
 }
-@media (max-width: 1400px) {
+@media (max-width: 900px) {
     .section-swap {
         flex-direction: column;
         align-items: center;
@@ -84,7 +81,7 @@ body {
   }
 
   .content-swap {
-    max-width: 400px;
+    max-width: 600px;
 }
 .photo-swap {
     max-width: 400px;
@@ -96,13 +93,13 @@ body {
         align-items: center;
     }
     .content-swap {
-        margin-left: 15px;
-        margin-right: 15px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
   }
 
 
-@media (max-width: 900px) {
+@media (max-width: 1400px) {
     .text {
     margin-right: 40px;
     margin-left: 40px;
@@ -138,10 +135,6 @@ body {
         flex-direction: column;
         align-items: center;
         gap: 40px;
-    }
-    .tfigure {
-    max-width: 30%;
-    margin: 0;
     }
   }
   .tfotos{
